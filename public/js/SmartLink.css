@@ -1,0 +1,39 @@
+/*********************************************************
+ * Note: This file is included in admin-lte-custom.less  *
+ *********************************************************/
+.smart-link {
+  cursor: pointer;
+  border-bottom: 2px dashed !important;
+}
+.smart-link:hover {
+  text-decoration: none;
+}
+.smart-link-option {
+  cursor: pointer;
+}
+.smart-link-option a {
+  text-decoration: none;
+}
+.smart-link-wrapper {
+  position: relative;
+  display: inline;
+}
+.smart-link-wrapper .dropdown-menu > .disabled > a,
+.smart-link-wrapper .dropdown-menu > .disabled > a:focus,
+.smart-link-wrapper .dropdown-menu > .disabled > a:hover {
+  color: #BBB;
+}
+.smart-link-wrapper .dropdown-menu > li:hover {
+  background-color: #eaeaea;
+}
+.smart-link-wrapper .dropdown-menu > li a {
+  color: #777;
+  cursor: pointer;
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  white-space: nowrap;
+}
